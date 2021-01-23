@@ -1,0 +1,25 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiritualDixit/node-utils.git"
+  },
+  "author": "Deepak Dixit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiritualDixit/node-utils/issues"
+  },
+  "homepage": "https://github.com/SpiritualDixit/node-utils#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid": "^1.0.3"
+  }
+}
